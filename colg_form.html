@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+	<link rel="stylesheet" href="css3/css_upper.css" media="all" type="text/css">
+
+</head>
+<header>
+	<aside id="left"><img src="http://www.intro-webdesign.com/images/newlogo.png" alt="this is wd4e"/>" 
+	</aside>
+	<h1>INSTITUTION NAME</h1>
+	<h2>ADDRESS</h2>
+	<h3>DEPARTMENT</h3>
+</header>
+<body>
+	<form action="php/colg_form.php" method="POST">
+	<section id='one'>
+		<h3 style="text-align:center">Guest lecture feedback<br>(By Student)</h3>
+		
+		<table id="leftt">
+			<tr><td>Topic:</td>
+				<td><input type="text" name="Topic"></td></tr>
+			<tr><td>Name of Expert:</td>
+			<td><input type="text" name="Ne"></td></tr>
+			<tr><td>Name of student:</td><td><input type="text" name="Ns"></td></tr>
+			<tr><td>Semester:</td><td><input type="text" name="Sem"></td>
+		</table>
+		<table id="right">
+			<tr><td>date:</td><td><input type="date" name="date"></td></tr>
+			<tr><td>register no:</td><td><input type="text" name="regno"></td></tr>
+			<tr><td>Academic year:</td><td><input type="text" name="academic"></td></tr>
+
+		</table>
+	</section>
+	<section id='two'>
+		<table id="feedback">
+		<tr><th>S.No.</th><th>Overall, your satisfaction on the following statements</th><th>Definitely agree</th><th>Agree</th><th>Uncertain</th><th>Disagree</th><th>Definitely disagree</th></tr>
+		
+		<tr><td>1</td><td>Topic relevance to my course or syllabus</td><td><input type="radio" name='1' value=5></td><td><input type="radio" name='1' value=4></td><td><input type="radio" name='1' value=3></td><td><input type="radio" name='1' value=2></td><td><input type="radio" name='1' value=1></td></tr>
+
+		<tr><td>2</td><td>Topic relevance to my area</td><td><input type="radio" name='2' value=5></td><td><input type="radio" name='2' value=4></td><td><input type="radio" name='2' value=3></td><td><input type="radio" name='2' value=2></td><td><input type="radio" name='2' value=1></td></tr>
+
+		<tr><td>3</td><td>Lecture challenged me intellectually</td><td><input type="radio" name='3' value=5></td><td><input type="radio" name='3' value=4></td><td><input type="radio" name='3' value=3></td><td><input type="radio" name='3' value=2></td><td><input type="radio" name='3' value=1></td></tr>
+
+		<tr><td>4</td><td>Lecture content was well organised</td><td><input type="radio" name='4' value=5></td><td><input type="radio" name='4' value=4></td><td><input type="radio" name='4' value=3></td><td><input type="radio" name='4' value=2></td><td><input type="radio" name='4' value=1></td></tr>
+
+		<tr><td>5</td><td>Speaker was able to explain topic clearly & used relevant exmaples</td><td><input type="radio" name='5' value=5></td><td><input type="radio" name='5' value=4></td><td><input type="radio" name='5' value=3></td><td><input type="radio" name='5' value=2></td><td><input type="radio" name='5' value=1></td></tr>
+
+		<tr><td>6</td><td>Speaker was able to make the lecture interactive & made me feel engaged</td><td><input type="radio" name='6' value=5><td><input type="radio" name='6' value=4><td><input type="radio" name='6' value=3><td><input type="radio" name='6' value=2><td><input type="radio" name='6' value=1></tr>
+
+		<tr><td>7</td><td>Speaker was able to positively influence my views</td><td><input type="radio" name='7' value=5></td><td><input type="radio" name='7' value=4></td><td><input type="radio" name='7' value=3></td><td><input type="radio" name='7' value=2></td><td><input type="radio" name='7' value=1></td></tr>
+
+		<tr><td>8</td><td>Speaker had enough knowledge against the topic</td><td><input type="radio" name='8' value=5></td><td><input type="radio" name='8' value=4></td><td><input type="radio" name='8' value=3></td><td><input type="radio" name='8' value=2></td><td><input type="radio" name='8' value=1></td></tr>
+
+		<tr><td>9</td><td>Speaker's ability to stimulate interest in the topic</td><td><input type="radio" name='9' value=5></td><td><input type="radio" name='9' value=4></td><td><input type="radio" name='9' value=3></td><td><input type="radio" name='9' value=2></td><td><input type="radio" name='9' value=1></td></tr>
+
+		<tr><td>10</td><td>Effective use of time during the lecture by the speaker</td><td><input type="radio" name='10' value=5></td><td><input type="radio" name='10' value=4></td><td><input type="radio" name='10' value=3></td><td><input type="radio" name='10' value=2></td><td><input type="radio" name='10' value=1></td></tr>
+
+		<tr><td>11</td><td>Speakers' answerinf capability while posting a question against the topic</td><td><input type="radio" name='11' value=5></td><td><input type="radio" name='11' value=4></td><td><input type="radio" name='11' value=3></td><td><input type="radio" name='11' value=2></td><td><input type="radio" name='11' value=1></td></tr>
+
+		<tr><td>12</td><td>Communication skills</td><td><input type="radio" name='12' value=5></td><td><input type="radio" name='12' value=4></td><td><input type="radio" name='12' value=3></td><td><input type="radio" name='12' value=2></td><td><input type="radio" name='12' value=1></td></tr>
+
+		<tr><td>13</td><td>I have learned something valuable from the lecture</td><td><input type="radio" name='13' value=5></td><td><input type="radio" name='13' value=4></td><td><input type="radio" name='13' value=3></td><td><input type="radio" name='13' value=2></td><td><input type="radio" name='13' value=1></td></tr>
+
+		<tr><td>14</td><td>I understand the main points that the guest speaker was trying to convey against the topic</td><td><input type="radio" name='14' value=5></td><td><input type="radio" name='14' value=4></td><td><input type="radio" name='14' value=3></td><td><input type="radio" name='14' value=2></td><td><input type="radio" name='14' value=1></td></tr>
+
+		<tr><td>15</td><td>Would you recommend the speakers to others</td><td><input type="radio" name='15' value=5></td><td><input type="radio" name='15' value=4></td><td><input type="radio" name='15' value=3></td><td><input type="radio" name='15' value=2></td><td><input type="radio" name='15' value=1></td></tr>
+
+	</table>
+	<span>Additional comments(if any):<br>
+	<input id="foottext" type="text"><br></span>
+	<input id="foot" type="SUBMIT">
+    </section>
+    </form>
+</body>
+</html>
